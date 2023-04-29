@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guest.css">
+    <title>GuestGame</title>
+</head>
+<body>
+    <div class="game">
+        <div class="content">
+            <h1>Let's play a litte game.</h1>
+            <p>In This game You are going to guest the number.</p>
+        </div>
+    </div>
+
+    <input type="text" placeholder="Guest Number" id="up"><br>
+    <div class="but">
+        <button onclick="generat()">Start</button>
+        <button onclick="Check()">Check</button><br>
+        <div class="current">
+           <p>Attemps: <span class="Display" id="op">0</span><br><br></p>
+            <span class="Display" id="gv">Suggetions</span>
+        </div>
+    </div>
+    <section class="scoreBoard">
+        <table>
+            <tr><h4><u> SCORE BOARD </u></h4>
+            <br></tr>
+            <tr>First Time--------- </tr>
+            <tr><span id="1">0</span></tr>
+            <br>
+            <tr>Second Time------ </tr>
+            <tr><span id="2">0</span></tr>
+            <br>
+            <tr>Third Time--------- </tr>
+            <tr><span id="3">0</span></tr>
+            <br>
+            <tr>Forth Time--------- </tr>
+            <tr><span id="4">0</span></tr>
+        </table>
+    </section>
+    <footer>
+        <h3>Developed  by : > Dev Maurya</h3>
+        <h5>Suggeted By :> Harry</h5>
+    </footer>
+    
+    
+
+</body>
+<script src="Guest.js"></script>
+</html>
