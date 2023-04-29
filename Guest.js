@@ -10,7 +10,7 @@ function generat()
 {
     random_Number = Math.floor((Math.random() * (100 - 0) + 0));
     attemps = 0;
-    og.innerHTML = random_Number;
+//     og.innerHTML = random_Number;
 }
 function Check()
 {
